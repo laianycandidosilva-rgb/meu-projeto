@@ -23,3 +23,35 @@ text-align: center;
     font-size: 1.5em;
     margin-bottom: 5px;
 }
+
+
+.link{
+    margin-top: 30px;
+    display: flex;
+    flex-direction:column ;
+    gap: 15px;
+}
+
+.link-botao{
+    background-color: blue;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.link-botao i{
+    margin-right: 10px;
+    font-size: 1.2rem;
+
+}
+    
+.link-botao:hover{
+    background-color: rgb(3, 3, 147);
+    transform: translateY(-2px);
+}
